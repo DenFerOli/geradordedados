@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <CPFComponent />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CPFComponent from './components/CPFComponent.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CPFComponent
+
   }
 }
 </script>
